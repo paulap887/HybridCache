@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "5o/GF/GWlrXN5T1sR7i8c7BSpJoLH6xWGKL1UTbmYxU=",
+  "Source": "HybridCache.Api",
+  "BasePath": "_content/HybridCache.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "pUQ6J2kO1l4=",
+  "success": true,
+  "projectFilePath": "/Users/paulthomas/Git_Projects/HybridCache/HybridCache.Api/HybridCache.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/paulthomas/.nuget/packages/microsoft.aspnetcore.openapi/9.0.3/microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
+    "/Users/paulthomas/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.3/microsoft.extensions.caching.abstractions.9.0.3.nupkg.sha512",
+    "/Users/paulthomas/.nuget/packages/microsoft.extensions.caching.hybrid/9.3.0/microsoft.extensions.caching.hybrid.9.3.0.nupkg.sha512",
+    "/Users/paulthomas/.nuget/packages/microsoft.extensions.caching.memory/9.0.3/microsoft.extensions.caching.memory.9.0.3.nupkg.sha512",
+    "/Users/paulthomas/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.3/microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512",
+    "/Users/paulthomas/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.3/microsoft.extensions.logging.abstractions.9.0.3.nupkg.sha512",
+    "/Users/paulthomas/.nuget/packages/microsoft.extensions.options/9.0.3/microsoft.extensions.options.9.0.3.nupkg.sha512",
+    "/Users/paulthomas/.nuget/packages/microsoft.extensions.primitives/9.0.3/microsoft.extensions.primitives.9.0.3.nupkg.sha512",
+    "/Users/paulthomas/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/Users/paulthomas/.nuget/packages/scalar.aspnetcore/2.12.48/scalar.aspnetcore.2.12.48.nupkg.sha512"
+  ],
+  "logs": []
+}
