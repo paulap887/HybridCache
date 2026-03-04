@@ -1,4 +1,4 @@
-# HybridCache Demo — ASP.NET Core 9
+# HybridCache
 
 A minimal API demonstrating `Microsoft.Extensions.Caching.Hybrid` (HybridCache), the two-level caching abstraction introduced in .NET 9. It shows cache population, tag-based invalidation, and the L1 → L2 → factory lookup chain using a simple Product CRUD API.
 
@@ -12,27 +12,7 @@ HybridCache sits in front of a backing store and maintains two cache layers:
 | **L2** | `IDistributedCache` (Redis, SQL, etc.) | Shared across all instances |
 
 On a cache miss, HybridCache calls the factory function (your repository), stores the result in both layers, and returns it. Subsequent requests hit L1 first — typically under 5 ms — with no network round-trip.
-
-## Project Structure
-
-```
-HybridCache.Api/
-├── Endpoints/
-│   └── ProductEndpoints.cs     # Minimal API route registrations
-├── Models/
-│   └── Product.cs              # Domain model
-├── Repositories/
-│   ├── IProductRepository.cs
-│   └── InMemoryProductRepository.cs  # Simulates DB latency (30–50 ms)
-├── Services/
-│   ├── IProductService.cs
-│   └── ProductService.cs       # HybridCache get-or-create + tag invalidation
-├── Program.cs                  # DI registration, middleware
-└── tests/
-    └── test-commands.sh        # curl-based cache behaviour test suite
-docker-compose.yml              # Redis 7 (for L2 distributed cache)
-```
-
+ 
 ## Getting Started
 
 ### Prerequisites
