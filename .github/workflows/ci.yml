@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    services:
+      redis:
+        image: redis:7-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9.0.x
+
+      - name: Restore
+        run: dotnet restore HybridCache.sln
+
+      - name: Build
+        run: dotnet build HybridCache.sln -c Release --no-restore
+
+      - name: Test (including Redis L2)
+        run: dotnet test HybridCache.sln -c Release --no-build --logger "console;verbosity=normal"
+        env:
+          REDIS_CONNECTION: localhost:6379
