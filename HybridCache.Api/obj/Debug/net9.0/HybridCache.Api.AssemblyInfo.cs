@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HybridCache.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dc4e9bbe87b2780e0a1eed943941cbbee2f8888")]
 [assembly: System.Reflection.AssemblyProductAttribute("HybridCache.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HybridCache.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
