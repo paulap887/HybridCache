@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/paulthomas/Git_Projects/HybridCache/HybridCache.Api/HybridCache.Api.csproj": {}
+    "/private/tmp/claude-501/-Users-paulthomas/1d07f93d-5d43-4245-81fc-2ea2652eeda9/scratchpad/HybridCache/HybridCache.Api/HybridCache.Api.csproj": {}
   },
   "projects": {
-    "/Users/paulthomas/Git_Projects/HybridCache/HybridCache.Api/HybridCache.Api.csproj": {
+    "/private/tmp/claude-501/-Users-paulthomas/1d07f93d-5d43-4245-81fc-2ea2652eeda9/scratchpad/HybridCache/HybridCache.Api/HybridCache.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/paulthomas/Git_Projects/HybridCache/HybridCache.Api/HybridCache.Api.csproj",
+        "projectUniqueName": "/private/tmp/claude-501/-Users-paulthomas/1d07f93d-5d43-4245-81fc-2ea2652eeda9/scratchpad/HybridCache/HybridCache.Api/HybridCache.Api.csproj",
         "projectName": "HybridCache.Api",
-        "projectPath": "/Users/paulthomas/Git_Projects/HybridCache/HybridCache.Api/HybridCache.Api.csproj",
+        "projectPath": "/private/tmp/claude-501/-Users-paulthomas/1d07f93d-5d43-4245-81fc-2ea2652eeda9/scratchpad/HybridCache/HybridCache.Api/HybridCache.Api.csproj",
         "packagesPath": "/Users/paulthomas/.nuget/packages/",
-        "outputPath": "/Users/paulthomas/Git_Projects/HybridCache/HybridCache.Api/obj/",
+        "outputPath": "/private/tmp/claude-501/-Users-paulthomas/1d07f93d-5d43-4245-81fc-2ea2652eeda9/scratchpad/HybridCache/HybridCache.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/paulthomas/.nuget/NuGet/NuGet.Config"
@@ -52,6 +52,10 @@
             "Microsoft.Extensions.Caching.Hybrid": {
               "target": "Package",
               "version": "[9.3.0, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[9.0.20, )"
             },
             "Scalar.AspNetCore": {
               "target": "Package",
